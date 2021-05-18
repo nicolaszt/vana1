@@ -1,14 +1,11 @@
+---
 application:
-  name: vana1
-  project: vana1-2
-  publicly_accessible: true
-databases:
-- type: postgresql
-  version: "12"
-  name: my-psql
+  name: "vana1"
+  project: "b1a"
+  organization: "QoveryCommunity"
 routers:
-- name: main
+- name: "main-vana1"
   routes:
-  - application_name: vana1
+  - application_name: "vana1"
     paths:
-    - /
+    - "/*"
